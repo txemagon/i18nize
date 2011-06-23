@@ -12,7 +12,7 @@ Creates the basic methods that are based on the views. Remember to add support f
 DESC
 
       def helper_config
-        directory("templates", "/lib/templates")
+        directory("templates", "lib/templates")
         copy_file("application_helper.rb", "app/helpers/application_i18n_helper.rb") 
       end
       
