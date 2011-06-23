@@ -1,0 +1,22 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  my_job_seeking_tool: "My Job seeking Tool"
+  hello: "Hello world"
+  update: "Update"
+  are_you_sure: "Are you sure?"
+  back: "Back"
+  edit: "Edit"
+  editing: "Editing"
+  show: "Show"
+  destroy: "Destroy"
+  oh_yes: "Yes"
+  oh_no: "No"
+  admit: "Admit"
+  expel: "Expel"
+
+  member: "member"
+  company: "company"
+  admin: "administrator"
+  board: "Administration Board"
