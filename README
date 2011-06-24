@@ -58,4 +58,10 @@ rails g i18nize:translate Person plaza:- surname:apellidos --locale es
 
 Use a dash when no translation is given. es is the default locale.
 
+NOTES
+=====
+
+When you install it via rails plugin install you can have, depending on your rails version, a github plugin not
+found. As far as I know it doesn't matter. Is working anyway.
+
 Copyright (c) 2011 txemagon / imasen, released under the MIT license
