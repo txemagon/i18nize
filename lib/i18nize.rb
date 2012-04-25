@@ -1,1 +1,2 @@
-# I18nize
+module I18nize
+end
