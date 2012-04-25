@@ -6,6 +6,16 @@ are overrided for directly writing translations. Errors and notices are also tak
 The basic problem with spanish is the use of different article clauses depending on the gender of
 the word. So, as long as "THE word" is translated as "LA palabra", "THE fish" is translated as "EL pez".
 
+== INSTALLATION
+
+Add
+  
+  gem 'i18nize', :git => 'http://github.com/txemagon/i18nize.git'
+
+to your Gemfile. Then run 
+
+  bundle install
+
 == USAGE
 
 Step 1:
