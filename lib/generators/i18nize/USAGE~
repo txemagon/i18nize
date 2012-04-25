@@ -1,0 +1,8 @@
+Description:
+    Creates the basic methods that are based on the views.
+
+Example:
+    rails generate i18nize Thing
+
+    This will create:
+        what/will/it/create

@@ -1,0 +1,20 @@
+es:
+  my_job_seeking_tool: "Mi Web de Búsqueda Activa de Empleo"
+  hello: "Hola"
+  are_you_sure: "¿Está seguro?"
+  back: "Atrás"
+  edit: "Editar"
+  editing: "Editando"
+  update: "Actualizar"
+  show: "Ver"
+  destroy: "Eliminar"
+  oh_yes: "Sí"
+  oh_no: "No"
+  admit: "Admitir"
+  expel: "Expulsar"
+
+
+  member: "socio"
+  company: "empresa"
+  admin: "administrador"
+  board: "Consejo"

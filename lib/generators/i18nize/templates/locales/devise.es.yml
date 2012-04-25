@@ -1,0 +1,88 @@
+es:
+  errors:
+    messages:
+      not_found: 'no encontrado'
+      already_confirmed: 'ya ha sido confirmada'
+      not_locked: 'no está bloqueada'
+
+  devise:
+    sign_in: "Autentificarse"
+    sign_up: "Inscribirme"
+    forgot_your_password: "¿Olvidó su contraseña?"
+    didnt_receive_unlock_instructions: "¿No ha recibido las instrucciones para desbloquear su cuenta?"
+    didnt_receive_confirmation_instructions: "¿No recibió las instrucciones de confirmación?"
+    resend_confirmation_instructions: "Reenviar instrucciones de confirmación" 
+    resend_unlock_instructions: "Reenviar instrucciones de desbloqueo" 
+    send_unlock_instructions: "Enviar instrucciones de desbloqueo" 
+    send_confirmation_instructions: "Enviar instrucciones de confirmación"
+    
+    failure:
+      unauthenticated: 'Necesitas acceder a tu cuenta o registrarte antes de continuar.'
+      unconfirmed: 'Necesitas confirmar tu cuenta antes de continuar.'
+      locked: 'Tu cuenta esta bloqueada.'
+      invalid: 'Contraseña o Email incorrecto.'
+      invalid_token: 'Token de autenticación incorrecto.'
+      timeout: 'Tu sesión ha expirado, por favor accede de nuevo para continuar.'
+      inactive: 'Tu cuenta no ha sido activada.'
+    sessions:
+      signed_in: 'Has ingresado correctamente.'
+      signed_out: 'Has salido correctamente.'
+    passwords:
+      send_instructions: 'Recibirás un email con instrucciones para cambiar tu contraseña en poco minutos.'
+      updated: 'Tu contraseña ha sido modificada. Ya has accedido a tu cuenta.'
+    confirmations:
+      send_instructions: 'Recibirás un email con instrucciones para confirmar tu cuenta en poco minutos.'
+      confirmed: 'Tu cuenta ha sido confirmada. Ya has accedido a tu cuenta.'
+    registrations:
+      signed_up: 'Te has registrado correctamente. Si está disponible, te habremos enviado un email de confirmación.'
+      updated: 'Has actualizado tu cuenta correctamente.'
+      destroyed: '!Adiós! Tu cuenta ha sido cancelada. Esperamos verte pronto.'
+    unlocks:
+      send_instructions: 'Recibirás un email con instrucciones para desbloquear tu cuenta en pocos minutos.'
+      unlocked: 'Tu cuenta ha sido desbloqueada. Ya has accedido a tu cuenta.'
+    oauth_callbacks:
+      success: 'Has sido autorizado satisfactoriamente de la cuenta %{kind}.'
+      failure: 'No has sido autorizado en la cuenta %{kind} porque "%{reason}".'
+    mailer:
+      confirmation_instructions:
+        subject: 'Instrucciones de confirmación'
+      reset_password_instructions:
+        subject: 'Instrucciones para cambiar tu contraseña'
+      unlock_instructions:
+        subject: 'Instrucciones para desbloquear tu cuenta'
+        
+        
+  invalid_url: " - la dirección (url) no es válida"
+  error:
+    one: "error"
+    other: "errores"
+  prohibited_from_being_saved: 
+    one: "ha impedido que se guardara"
+    other: "han impedido que se guardara"
+  successfully_created: "%{model} se ha creado correctamente."
+  successfully_updated: "%{model} se ha modificado correctamente."
+  welcome: "Te damos la bienvenida"
+  you_can_confirm_your_account_through_the_link_below: "Puede confirmar su cuenta mediante el enlace siguiente"
+  confirm_my_account: "Confirmar mi cuenta"
+  password_change_request: "Alguien ha solicitado cambiar su contraseña. Si lo desea puede servirse a hacerlo mediante el siguiente enlace"
+  didnt_request_ignore_email: "Si usted no ha solicitado este cambio, simplemente ignore este email"
+  password_wont_change_without_you: "Su contraseña no cambiará si usted no sigue el enlace siguiente y procede a introducir una nueva"
+  password_locked_excessive_attempts: "Su cuenta ha sido bloqueada porque ha excedido el número de intentos permitidos para acceder a ella"
+  click_to_unlock: "Desbloqueela con el siguiente enlace"
+  unlock_my_account: "Desbloquear mi cuenta"
+  change_your_password: "Cambie su contraseña"
+  change_my_password: "Cambiar mi contraseña"
+  unhappy: "Descontento"
+  cancel_my_account: "Cancelar mi cuenta"
+  leave_blank_not_changing: "déjelo en blanco si no desea cambiarlo"
+  need_current_password_confirm_changes: "necesitamos su contraseña actual para aceptar los cambios"
+  disabled_field: "este campo está desactivado. Su valor lo fija el sistema automáticamente"
+  sign_in: "Autentificarse"
+  sign_up: "Inscribirme"
+  forgot_your_password: "¿Olvidó su contraseña?"
+  didnt_receive_unlock_instructions: "¿No ha recibido las instrucciones para desbloquear su cuenta?"
+  didnt_receive_confirmation_instructions: "¿No recibió las instrucciones de confirmación?"
+  resend_confirmation_instructions: "Reenviar instrucciones de confirmación" 
+  resend_unlock_instructions: "Reenviar instrucciones de desbloqueo" 
+  send_unlock_instructions: "Enviar instrucciones de desbloqueo" 
+  send_confirmation_instructions: "Enviar instrucciones de confirmación"

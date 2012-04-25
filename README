@@ -1,4 +1,5 @@
-= I18nize
+I18nize
+=======
 
 I18nize provides a plugin to translate rails apps into spanish. The scaffold generator templates
 are overrided for directly writing translations. Errors and notices are also taken into account.
@@ -6,7 +7,8 @@ are overrided for directly writing translations. Errors and notices are also tak
 The basic problem with spanish is the use of different article clauses depending on the gender of
 the word. So, as long as "THE word" is translated as "LA palabra", "THE fish" is translated as "EL pez".
 
-== USAGE
+USAGE
+=====
 
 Step 1:
 
@@ -56,8 +58,8 @@ rails g i18nize:translate Person plaza:- surname:apellidos --locale es
 
 Use a dash when no translation is given. es is the default locale.
 
-== NOTES
-
+NOTES
+=====
 
 When you install it via rails plugin install you can have, depending on your rails version, a github plugin not
 found. As far as I know it doesn't matter. Is working anyway.
